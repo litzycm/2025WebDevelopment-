@@ -21,9 +21,12 @@ function createStory(){
       let girlname = document.getElementbyId("girlname")
       let veg = document.getElementbyId("veg")
   /* Task 4: Set the innerHTML for each of the spans on lines 3 to 9 with the appropriate values from the variables you create in Task 3. */
-     output.InnerHTML="boyname" boyname.value;
+     boyname.InnerHTML=boyname.value;
+     vegetable.InnerHTML=vegetable.value;
+     girlname.InnerHTML=girlname.value;
+     veg.InnerHTML=veg.value;
      
   /* Task 5: Set the display property of the element with an id of "story" to 'block' */
-
+  document.getElementbyId("story").style.display="block";
 
 }
