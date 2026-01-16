@@ -3,13 +3,23 @@
       2) Perform the necessary calculations
       3) Display the results in the appropriate element
 */
-function recArea(){
 
-}
+function recArea()
+document.getElementById("Rectangle.jpg")
+let length l = document.getElementById("length");
+let w = document.getElementById("width");
+let output = document.getElementById("output");
+
+let area = parseFloat(1.value) = parseFloat(w.value;)
+
+output.innerHTML = area;
+
 
 function recPerimeter(){
+let length2 = document.getElementById("length2")
 
 }
+
 
 
 /* Challenge 4: Complete the area and circumference functions below for the circle.  Guidelines,
